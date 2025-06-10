@@ -1,0 +1,9 @@
+{
+  "markdown.marp.enable": true,
+  "markdown.preview.breaks": true,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "boundary",
+  "files.associations": {
+    "*.marp.md": "markdown"
+  }
+}
