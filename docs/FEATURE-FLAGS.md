@@ -1,3 +1,13 @@
+---
+marp: true
+title: Git Trunk Based Development
+description: Apresentação sobre Feature Flags no Trunk Based Development
+theme: default
+footer: '@ 2025 Dario Alves Junior'
+paginate: true
+transition: fade 0.3s
+---
+
 # 🧩 Feature Flags no Trunk Based Development
 
 ## 🎯 O que são Feature Flags?
@@ -23,17 +33,17 @@ No Trunk Based Development (TBD), onde o código é integrado frequentemente na 
 
 ### Sem Feature Flag:
 
-```ts
-renderNovoCheckout(); // Executa direto ao entrar no main
+```java
+receiverNovo(); // Executa direto ao entrar no main
 ```
 
 ### Com Feature Flag:
 
-```ts
-if (isFeatureEnabled('NOVO_CHECKOUT')) {
-  renderNovoCheckout();
+```java
+if (isFeatureEnabled('NOVO_RECEIVER')) {
+  receiverNovo();
 } else {
-  renderCheckoutAntigo();
+  receiver();
 }
 ```
 
