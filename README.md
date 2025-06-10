@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-Comparação entre dois modelos de estratégia de branches utilizados em Git: **[Git Flow](GIT-FLOW.md)** e **[Trunk Based Development](GIT-TRUNK)**, com foco em:
+Comparação entre dois modelos de estratégia de branches utilizados em Git: **[Git Flow](docs/GIT-FLOW.md)** e **[Trunk Based Development](docs/GIT-TRUNK)**, com foco em:
 
 - Equipes pequenas
 - Processos bem definidos: `dev → QA → UAT → cert → prod`
@@ -26,10 +26,10 @@ Comparação entre dois modelos de estratégia de branches utilizados em Git: **
 
 ### Vantagens
 
-- Separação clara de ambientes e fases
-- Ideal para versões agendadas
-- Facilita rollback
-- Histórico explícito por versão
+- **Separação clara de ambientes e fases**
+- **Ideal para versões agendadas**
+- **Facilita rollback**
+- **Histórico explícito por versão**
 
 ### Desvantagens
 
@@ -46,7 +46,7 @@ Comparação entre dois modelos de estratégia de branches utilizados em Git: **
 ### Características
 
 - Todos desenvolvem direto na `main` (ou com PRs de curta duração)
-- Feature flags são essenciais
+- [Feature flags](docs/FEATURE-FLAGS.md) são essenciais
 - CI/CD automático promove código entre ambientes
 - Deploy contínuo possível a qualquer momento
 
